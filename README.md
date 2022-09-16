@@ -1,8 +1,8 @@
-# Process for setting up and destroying AWS reosurces for the CN211 Class
+# Process for setting up and destroying AWS resources for the CN211 Class
 
 ## Requirements
 
-This process relies on the following dependencies
+This process relies on the following dependencies being installed and configured:
 - AWS ClI
 - [Cloud Nuke]
 - bash
