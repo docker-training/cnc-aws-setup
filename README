@@ -63,3 +63,5 @@ If you would like to be sure what resources will be deleted before actually dele
 ### Check what resources remain:
 
 ``` bash
+cloud-nuke inspect-aws
+```
