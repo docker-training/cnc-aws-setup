@@ -3,7 +3,7 @@
 ## Requirements
 
 This process relies on the following dependencies being installed and configured:
-- AWS ClI
+- AWS Cli
 - [Cloud Nuke]
 - bash
 - bc
