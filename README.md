@@ -18,9 +18,9 @@ Before deploying resources you will need to configure deploy the appropriate IAM
 bash prepare.sh 
 ```
 
-This script will prmpt for the AWS acocunt ID that you are deploying to. This must be the same account as the one that you have your AWS cli configured to use. This scirpt will deploy a cloudformation stack that will create various IAM policies and create an IAM user and group. 
+This script will prompt for the AWS acocunt ID that you are deploying to. This must be the same account as the one that you have your AWS cli configured to use. This scirpt will deploy a cloudformation stack that will create various IAM policies and create an IAM user and group. 
 
-This script will also chck that your account quotas are sufficient for the numbher of students you expect to support. If not, it will indicate which quotas need to be increased. 
+This script will also check that your account quotas are sufficient for the numbher of students you expect to support. If not, it will indicate which quotas need to be increased. 
 
 ## Deploy student users
 
@@ -32,7 +32,7 @@ bash generate-users.sh
 
 > Its a good idea to deploy more users than you will need. Generally I will deploy the amount of students, including the instructor + 3.
 
-This scipt will create a set of files that will be needed for the cleanup process. Do not delete them. 
+This script will create a set of files that will be needed for the cleanup process. Do not delete them. 
 
 You will find the credentials that you can provide to your students in the student-credentials.txt file. Only provide one set of credentials per student.
 
