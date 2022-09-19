@@ -20,9 +20,11 @@ bash prepare.sh
 
 This script will prmpt for the AWS acocunt ID that you are deploying to. This must be the same account as the one that you have your AWS cli configured to use. This scirpt will deploy a cloudformation stack that will create various IAM policies and create an IAM user and group. 
 
+This script will also chck that your account quotas are sufficient for the numbher of students you expect to support. If not, it will indicate which quotas need to be increased. 
+
 ## Deploy student users
 
-Run the belopw script, it will promt you for the number of student users to create: 
+Run the below script, it will promt you for the number of student users to create: 
 
 ``` bash
 bash generate-users.sh
